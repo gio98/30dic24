@@ -3,6 +3,14 @@ body {
 	background: #020202;
 	cursor: crosshair;
 }
+@font-face {
+    font-family: 'MyWebFont';
+    src:
+         url('Fordscript.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+#myBtn {
+	font-family: 'MyWebFont';
+}
 canvas {
 	display: block;
 }
@@ -45,8 +53,8 @@ h1 {
     background-color: black;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 57pc;
+    border: 1px solid black;
+    width: 62pc;
     position: absolute;
     top: 4pc;
     left: 1pc;
